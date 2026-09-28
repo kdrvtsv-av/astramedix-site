@@ -35,10 +35,14 @@ body {
   position: fixed;
   inset: 0;
   z-index: 0;
-  background:
-    radial-gradient(ellipse 60% 45% at 22% 18%, rgba(47, 69, 224, 0.28), transparent 60%),
-    radial-gradient(ellipse 55% 40% at 85% 78%, rgba(228, 43, 55, 0.18), transparent 60%),
-    linear-gradient(160deg, var(--bg-1) 0%, var(--bg-0) 55%, #020308 100%);
+  background: #04060f url("assets/Background.png") center / cover no-repeat;
+}
+
+.bg-grid,
+.bg-scan,
+.orb,
+.collage {
+  display: none;
 }
 
 .bg-grid {
